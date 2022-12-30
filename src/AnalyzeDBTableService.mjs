@@ -28,6 +28,12 @@ export function parseBody(body) {
 }
 
 export class AnalyzeDBTableService {
+  // function execAndEachLine(command: string, cb: (lines: string) => void): void
+  /**
+   * 
+   * @param {(command: string, cb: (lines: string) => void) => void} execAndEachLine 
+   * @param {(path: string, option: any) => string} readFileSync 
+   */
   constructor(
     execAndEachLine,
     readFileSync

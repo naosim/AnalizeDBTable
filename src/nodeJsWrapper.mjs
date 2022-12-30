@@ -23,7 +23,7 @@ export function execAndEachLine(command, cb) {
  * 引数はnodejsのfs.readFileSyncに従う
  * @param {string} path
  * @param {any} option 
- * @returns 
+ * @returns {string} 
  */
 export function readFileSync(path, option) {
   return fs.readFileSync(path, option).trim();

@@ -6,7 +6,7 @@ CREATE TABLE文からテーブル仕様書データを生成する
 node . path/to/script > output.json
 
 ## 出力
-```json
+```
 [
   {
     "file": string, // スクリプトファイルのパス

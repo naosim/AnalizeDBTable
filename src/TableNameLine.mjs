@@ -12,6 +12,6 @@ export class TableNameLine {
     return this.line.lowerCaseValue.split('create table')[1].split('(')[0].trim();
   }
   getTableNameComment() {
-    return this.line.getComment(this.line.value);
+    return this.line.comment;
   }
 }
